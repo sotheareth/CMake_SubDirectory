@@ -17,6 +17,7 @@ project(CMake_SubDirectory)
 	#assign above path into include_directories accordingly
 	include_directories(${FULL_PATH_TO_MYSQL_CONNECTOR_CPP_DIR}/include)
 	include_directories(${FULL_PATH_TO_MYSQL_CONNECTOR_CPP_DIR}/include/cppconn)
+	include_directories(${FULL_PATH_TO_MYSQL_CONNECTOR_CPP_DIR}/include/jdbc)
 	
 	#log4cpp
 	include_directories(${PATH_TO_LOG4CPP}/include)
@@ -29,6 +30,7 @@ project(CMake_SubDirectory)
 	
 	#add link library using set path
 	link_directories(${FULL_PATH_TO_MYSQL_CONNECTOR_CPP_DIR}/lib64)
+	link_directories(${FULL_PATH_TO_MYSQL_CONNECTOR_CPP_DIR}/lib64/vs14)
 	
 	#link_directories(${PATH_TO_LOG4CPP}/lib)
 	#link_directories(${PATH_TO_BOOST}/lib)

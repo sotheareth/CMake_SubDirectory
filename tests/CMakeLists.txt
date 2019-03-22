@@ -1,3 +1,3 @@
 add_executable(CMake_SubDirectory CMake_Test.cpp)
-target_link_libraries(CMake_SubDirectory PRIVATE library)
+target_link_libraries(CMake_SubDirectory PRIVATE library mysqlcppconn)
 
