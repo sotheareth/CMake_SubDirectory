@@ -10,7 +10,7 @@
 namespace MM {
 
 void Message::say(std::string str){
-	std::cout << str << std::endl;
+	
 }
 
 Message::Message() {
